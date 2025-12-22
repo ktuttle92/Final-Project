@@ -8,7 +8,7 @@
     <title>TReact</title>
     <link rel="stylesheet" href="style (1).css">
     <script src="https://kit.fontawesome.com/e2160994a3.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -26,18 +26,21 @@
                     <a href="#contact_us" class="nav__link">Contact Us</a>
                     <a href="#login" class="nav__link nav__link--login">Login</a>
                     <a href="#signup" class="nav__link nav__link--primary">Sign Up</a>
-                <button class="btn__menu btn__menu--open" onclick="openMenu()">
-                     <i class="fa fa-bars"></i>
                 
+                </div>
+                <button class="btn__menu" onclick="openMenu()">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn__menu--svg">
+                     <line x1="3" y1="12" x2="21" y2="12"></line>
+                     <line x1="3" y1="6" x2="21" y2="6"></line>
+                     <line x1="3" y1="18" x2="21" y2="18"></line>
+                     </svg>
                 </button>
-                  </div>
             </div>
-       
-        <div class="menu__close">
+       </nav>
+        <div class="menu">
             <button class="btn__menu btn__menu--close" onclick="closeMenu()">
                     <i class="fa fa-times"></i>
             </button>
-            <div class="menu">
                 <ul class="menu__links">
                 <li><a href=#about class="menu__link" onclick="closeMenu()">About</a></li>
                 <li><a href="#blog" class="menu__link"onclick="closeMenu()">Blog</a></li>
@@ -47,7 +50,7 @@
                 <li><a href="#signup" class="menu__link modal__link--primary" onclick="closeMenu()">Sign Up</a></li>
             </ul></div>
         </div>
-         </nav>
+         
         <header>
             <div class="container">
                 <div class="header__row">
