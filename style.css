@@ -206,7 +206,7 @@ button{cursor: pointer;
     color: #1a202c;
     font-size: 18px;
     font-weight: 600;
-    line-height: 1.5;
+    line-height: 2.5;
     margin: 8px 0;
     padding-bottom: 4px;
     border-bottom: 2px solid transparent;
@@ -1026,7 +1026,7 @@ MOBILE RESPONSIVENESS ↓
   }
 figure{margin-block-start:0px;
        margin-inline-end:0px}
-    
+.plans__blob{height:300px}   
     .feature {
     width: auto;
     max-width: 384px;
@@ -1123,7 +1123,8 @@ figure{margin-block-start:0px;
     margin: 8px 0;
     padding-bottom: 4px;
   }
-  .header__email {
+.plans__blob{height:300px}
+.header__email {
     flex-direction: column;
     height: auto;
   }
