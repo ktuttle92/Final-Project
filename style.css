@@ -664,7 +664,7 @@ PRICING ↓
 .plans__blob{position:absolute;
             left:0;
             bottom:0;
-            transform:translate(-50%,50%};
+            transform:translate(-50%,50%);
             z-index:-1;
             opacity:0.5;}
 /* 
